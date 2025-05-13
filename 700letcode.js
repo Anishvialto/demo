@@ -12,7 +12,7 @@ class LongestwordD
         let vaildwords={"":true}; ///
         let longest="";
 
-        for(let i=0;i<this.words.length;i++)
+        for(let i=0;i<this.words.length;i++) //
         {
             let word=this.words[i];
             let perfix=word.substring(0,word.length-1);
