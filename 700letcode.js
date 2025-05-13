@@ -7,9 +7,9 @@ class LongestwordD
 
     findlongestword()
     {
-        this.words.sort();
+        this.words.sort(); ///
 
-        let vaildwords={"":true};
+        let vaildwords={"":true}; ///
         let longest="";
 
         for(let i=0;i<this.words.length;i++)
