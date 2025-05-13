@@ -16,7 +16,7 @@ class msubseq
         }
     }
 
-    subseq(word,s) //this method check if word is a subseq of s
+    subseq(word,s) //this method check if word is a subsequences of s
     {
         let i=0,j=0;
         while(i<word.length&&j<s.length)
@@ -30,7 +30,7 @@ class msubseq
         return i===word.length;
     }
 
-    cmatchingseq() //this method to count matching subsequence
+    cmatchingseq() //this method to count matching subsequences
     {
         let count=0;
 
