@@ -6,7 +6,6 @@ class Ambiguous
     {
         this.input=prompt("Enter the coordinate string =");
     }
-
     vaildnumbers(s) 
     {
         let result=[];
