@@ -4,7 +4,7 @@ class Ambiguous
 {
     constructor()
     {
-        this.input=prompt("Enter the coordinate string =");
+        this.input=prompt("Enter the coordinate string ="); //
     }
     vaildnumbers(s) 
     {
