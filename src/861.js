@@ -7,7 +7,7 @@ class Ambiguous
         this.input=prompt("Enter the coordinate string =");
     }
 
-    vaildnumbers(s)
+    vaildnumbers(s) 
     {
         let result=[];
         let n=s.length;
